@@ -17,8 +17,12 @@ class ProfileCell: UICollectionViewCell {
     @IBOutlet weak var sinceLbl: DateLabel!
     @IBOutlet weak var bioLbl: UILabel!
     
-    func config(){
-        
+    func config(data:Profile){
+        self.nameLbl.text = data.name
+        self.emailLbl.text = data.email
+        self.companyLbl.text = data.company
+        self.sinceLbl.text = data.startDate
+        self.bioLbl.text = data.bio
     }
     
 }

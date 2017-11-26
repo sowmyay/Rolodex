@@ -12,9 +12,11 @@
 		0ADD026D1FCB3CE400A5774B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ADD026B1FCB3CE400A5774B /* Main.storyboard */; };
 		0ADD026F1FCB3CE400A5774B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ADD026E1FCB3CE400A5774B /* Assets.xcassets */; };
 		0ADD02721FCB3CE400A5774B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ADD02701FCB3CE400A5774B /* LaunchScreen.storyboard */; };
-		0ADD02821FCB458200A5774B /* DateLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD02811FCB458200A5774B /* DateLabel.swift */; };
 		0ADD02841FCB45E900A5774B /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD02831FCB45E900A5774B /* ProfileCell.swift */; };
 		0ADD02861FCB471F00A5774B /* CardData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ADD02851FCB471F00A5774B /* CardData.json */; };
+		0ADD02881FCB4A4500A5774B /* ReadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD02871FCB4A4500A5774B /* ReadData.swift */; };
+		0ADD028A1FCB4D4700A5774B /* ReadFromFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD02891FCB4D4700A5774B /* ReadFromFile.swift */; };
+		0ADD028C1FCB50FB00A5774B /* DateLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD028B1FCB50FB00A5774B /* DateLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +27,11 @@
 		0ADD026E1FCB3CE400A5774B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ADD02711FCB3CE400A5774B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0ADD02731FCB3CE400A5774B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0ADD02811FCB458200A5774B /* DateLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateLabel.swift; sourceTree = "<group>"; };
 		0ADD02831FCB45E900A5774B /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileCell.swift; path = Cells/ProfileCell.swift; sourceTree = "<group>"; };
 		0ADD02851FCB471F00A5774B /* CardData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CardData.json; sourceTree = "<group>"; };
+		0ADD02871FCB4A4500A5774B /* ReadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadData.swift; sourceTree = "<group>"; };
+		0ADD02891FCB4D4700A5774B /* ReadFromFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadFromFile.swift; sourceTree = "<group>"; };
+		0ADD028B1FCB50FB00A5774B /* DateLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				0ADD02851FCB471F00A5774B /* CardData.json */,
+				0ADD02871FCB4A4500A5774B /* ReadData.swift */,
+				0ADD02891FCB4D4700A5774B /* ReadFromFile.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -100,7 +106,7 @@
 		0ADD027E1FCB445E00A5774B /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				0ADD02811FCB458200A5774B /* DateLabel.swift */,
+				0ADD028B1FCB50FB00A5774B /* DateLabel.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -178,9 +184,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ADD02821FCB458200A5774B /* DateLabel.swift in Sources */,
+				0ADD028C1FCB50FB00A5774B /* DateLabel.swift in Sources */,
 				0ADD02841FCB45E900A5774B /* ProfileCell.swift in Sources */,
 				0ADD026A1FCB3CE400A5774B /* ViewController.swift in Sources */,
+				0ADD028A1FCB4D4700A5774B /* ReadFromFile.swift in Sources */,
+				0ADD02881FCB4A4500A5774B /* ReadData.swift in Sources */,
 				0ADD02681FCB3CE400A5774B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

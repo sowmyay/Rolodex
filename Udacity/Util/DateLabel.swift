@@ -15,7 +15,7 @@ class DateLabel: UILabel {
     
     override var text: String? {
         set {
-            if let count = newValue?.characters.count, count > 0 {
+            if let count = newValue?.count, count > 0 {
                 
                 let formatter = DateFormatter()
                 let locale = Locale(identifier: "en_US_POSIX")
