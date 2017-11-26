@@ -47,6 +47,7 @@
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                             <integer key="value" value="60"/>
                                                         </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sowmya Yellapragada" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMI-gw-I1W">
@@ -121,10 +122,10 @@
                                 </connections>
                             </collectionView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2WW-3T-lhu">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rolodex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RzB-lu-mwW">
-                                        <rect key="frame" x="151" y="18.5" width="73" height="23"/>
+                                        <rect key="frame" x="151" y="38.5" width="73" height="23"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -132,9 +133,9 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.33333333333333331" green="0.32941176470588235" blue="0.38431372549019605" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="7DR-sE-uYN"/>
+                                    <constraint firstAttribute="height" constant="80" id="7DR-sE-uYN"/>
                                     <constraint firstItem="RzB-lu-mwW" firstAttribute="centerX" secondItem="2WW-3T-lhu" secondAttribute="centerX" id="QRT-bc-eoX"/>
-                                    <constraint firstItem="RzB-lu-mwW" firstAttribute="centerY" secondItem="2WW-3T-lhu" secondAttribute="centerY" id="YrT-in-S15"/>
+                                    <constraint firstItem="RzB-lu-mwW" firstAttribute="centerY" secondItem="2WW-3T-lhu" secondAttribute="centerY" constant="10" id="YrT-in-S15"/>
                                 </constraints>
                             </view>
                         </subviews>

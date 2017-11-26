@@ -32,6 +32,7 @@ class Profile:NSObject{
     let company:String?
     let startDate:String?
     let bio :String?
+    let avatar:String?
     
     init(data: [String:Any]){
         if let first = data["firstName"] as? String, let last = data["lastName"] as? String{
@@ -41,6 +42,7 @@ class Profile:NSObject{
         self.company = data["company"] as? String
         self.startDate = data["startDate"] as? String
         self.bio = data["bio"] as? String
+        self.avatar = data["avatar"] as? String
         
     }
 }

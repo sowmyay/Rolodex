@@ -23,6 +23,11 @@ class ProfileCell: UICollectionViewCell {
         self.companyLbl.text = data.company
         self.sinceLbl.text = data.startDate
         self.bioLbl.text = data.bio
+        if let imagePath = data.avatar, let imageURL = URL(string: imagePath){
+            self.avatarView.imageWith(url: imageURL)
+        }
+        
+        
     }
     
 }
